@@ -1,3 +1,8 @@
 body {
   background-color: #999;
 }
+
+.blog-content-holder {
+  border-color: black;
+  margin: 10px;
+}
