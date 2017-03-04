@@ -25,3 +25,21 @@ body {
   font-size: 1010%;
 
 }
+
+.sidebar {
+	left: 661px;
+	top: 130px;
+	width: 10%;
+  background-color: #F8F8F8;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.sidebar .wrapper ul {
+	list-style-type: none;
+	padding: 0 75px 25px 15px;
+}
+
+.sidebar .wrapper li {
+	color: black;
+	padding: 3px 5px;
+}
