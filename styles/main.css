@@ -1,25 +1,35 @@
-*{
-  border-style: solid;
-  border-color: red;
+* {
+    border-style: solid;
+    border-color: red;
 }
 
-.container ul{
-  list-style: none;
+.container ul {
+    list-style: none;
 }
 
-.Welcome {
-  display: none;
+.Welcome .container {
+    display: none;
 }
+
 
 /* Larger than mobile */
+
 @media (min-width: 401px) {
-
-  /*CSS styling for desktop mode here*/
-
+    /*CSS styling for desktop mode here*/
 }
 
 @media (min-width: 1240px) {
-  .Welcome {
-    display:block;
-  }
+    .Welcome .container {
+        display: block;
+    }
+    img {
+        position: relative;
+        width: 100%;
+        /* for IE 6 */
+    }
+    h1 {
+        position: absolute;
+        top: 100px;
+        left: 420px;
+    }
 }
