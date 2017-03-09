@@ -1,0 +1,16 @@
+*{
+  border-style: solid;
+  border-color: red;
+}
+
+.container ul{
+  list-style: none;
+}
+
+/* Larger than mobile */
+@media (min-width: 401px) {
+
+  /*CSS styling for desktop mode here*/
+
+
+}
