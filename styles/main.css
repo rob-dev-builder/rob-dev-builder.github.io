@@ -3,6 +3,13 @@
     border-color: red;
 }
 
+
+
+.container {
+  border-color: blue;
+  width: 100%;
+}
+
 .container ul {
     list-style: none;
 }
@@ -10,6 +17,7 @@
 .Welcome .container {
     display: none;
 }
+
 
 
 /* Larger than mobile */
