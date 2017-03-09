@@ -7,10 +7,19 @@
   list-style: none;
 }
 
+.Welcome {
+  display: none;
+}
+
 /* Larger than mobile */
 @media (min-width: 401px) {
 
   /*CSS styling for desktop mode here*/
 
+}
 
+@media (min-width: 1240px) {
+  .Welcome {
+    display:block;
+  }
 }
