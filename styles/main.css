@@ -18,27 +18,56 @@
     display: none;
 }
 
+.footer {
+  background-color: blue;
+}
 
 
 /* Larger than mobile */
 
 @media (min-width: 401px) {
-    /*CSS styling for desktop mode here*/
+    /*CSS styling for tablet mode here*/
+
+}
+
+
+@media (min-width: 550px) {
+    /*CSS styling for tablet mode here*/
+
+    .footer {
+      width:100%;
+      height:100px;
+      position:absolute;
+      bottom:0;
+      left:0;
+    }
 }
 
 @media (min-width: 1240px) {
+  /*Styling for max desktop screen wdith*/
     .Welcome .container {
         display: block;
     }
+
+    /* Styling to make title text appear over image*/
     .Welcome .container img {
         position: relative;
         width: 100%;
         /* for IE 6 */
     }
+    /* Styling to make title text appear over image*/
     h1 {
         position: absolute;
         top: 100px;
         left: 420px;
     }
-  
+
+    .footer {
+      width:100%;
+      height:100px;
+      position:absolute;
+      bottom:0;
+      left:0;
+      /*background-color: blue;*/
+    }
 }
