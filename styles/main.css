@@ -19,10 +19,19 @@
 }
 
 .header {
-    border-style: solid;
-    border-color: #C3C3C3;
-    background-color: #C3C3C3;
+    /*background-color: #C3C3C3;*/
+    background-color: #ffffff;
+    margin-left:10px;
 }
+
+.header .container ul li{
+  margin: -4px;
+}
+
+.header .container ul{
+  margin-top: -5px;
+}
+
 
 .header .button {
     width: 100%;
