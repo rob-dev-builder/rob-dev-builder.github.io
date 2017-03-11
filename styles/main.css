@@ -6,6 +6,19 @@
 */
 
 
+  .BlogPosts .container li img{
+
+    /*width: 100%;*/
+    /*border-style: solid;*/
+    /*border-color: red;*/
+     /*for IE 6 */
+}
+
+.BlogPosts .container li p {
+  border-style: solid;
+  border-color: red;
+}
+
 .container {
     border-color: blue;
     width: 100%;
