@@ -6,18 +6,6 @@
 */
 
 
-  .BlogPosts .container li img{
-
-    /*width: 100%;*/
-    /*border-style: solid;*/
-    /*border-color: red;*/
-     /*for IE 6 */
-}
-
-.BlogPosts .container li p {
-  border-style: solid;
-  border-color: red;
-}
 
 .container {
     border-color: blue;
@@ -28,9 +16,11 @@
     list-style: none;
 }
 
-.Welcome .container {
+
+.Welcome .Desktop-container {
     display: none;
 }
+
 
 .header {
     /*background-color: #C3C3C3;*/
@@ -80,13 +70,8 @@
 }
 
 .footer .container {
-  /*border-style: solid;*/
   padding-top: 10px;
-
-
 }
-
-/* Larger than mobile */
 
 
 @media (min-width: 550px) {
@@ -106,8 +91,9 @@
 
 @media (min-width: 1240px) {
     /*Styling for max desktop screen wdith*/
-    .Welcome .container {
+    .Welcome .Desktop-container {
         display: block;
+        
     }
     /* Styling to make title text appear over image*/
     .Welcome .container img {
@@ -134,11 +120,5 @@
 
     .header .container li .button{
       font-size: 15px;
-    }
-
-
-    .footer .container a{
-      /*border-style: solid;*/
-      /*display: inline-block;*/
     }
 }
