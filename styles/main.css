@@ -5,6 +5,7 @@
 }
 */
 
+
 .container {
     border-color: blue;
     width: 100%;
@@ -74,9 +75,6 @@
 
 /* Larger than mobile */
 
-@media (min-width: 401px) {
-    /*CSS styling for tablet mode here*/
-}
 
 @media (min-width: 550px) {
     /*CSS styling for tablet mode here*/
@@ -86,6 +84,9 @@
         position: absolute;
         bottom: 0;
         left: 0;
+    }
+    .header .container li .button{
+      font-size: 12px;
     }
 
 }
@@ -116,6 +117,10 @@
         bottom: 0;
         left: 0;
 
+    }
+
+    .header .container li .button{
+      font-size: 15px;
     }
 
 
