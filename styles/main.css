@@ -5,7 +5,6 @@
 }
 */
 
-
 .container {
     border-color: blue;
     width: 100%;
@@ -15,26 +14,23 @@
     list-style: none;
 }
 
-
 .Welcome .Desktop-container {
     display: none;
 }
 
-
 .header {
     /*background-color: #C3C3C3;*/
     background-color: #ffffff;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
-.header .container ul li{
-  margin: -4px;
+.header .container ul li {
+    margin: -4px;
 }
 
-.header .container ul{
-  margin-top: -5px;
+.header .container ul {
+    margin-top: -5px;
 }
-
 
 .header .button {
     width: 100%;
@@ -69,9 +65,8 @@
 }
 
 .footer .container {
-  padding-top: 10px;
+    padding-top: 10px;
 }
-
 
 @media (min-width: 550px) {
     /*CSS styling for tablet mode here*/
@@ -88,41 +83,39 @@
       font-size: 12px;
     }
 
+
 }
 
 @media (min-width: 1240px) {
-    /*Styling for max desktop screen wdith*/
-    .Welcome .Desktop-container {
-        display: block;
 
-    }
-    /* Styling to make title text appear over image*/
-    .Welcome .container img {
-        position: relative;
-        width: 100%;
-        /* for IE 6 */
-    }
-    /* Styling to make title text appear over image*/
-    h1 {
-        position: absolute;
-        top: 80px;
-        left: 350px;
-        color: #ffffff;
-        font-size: 100px;
-    }
-    .footer {
-        width: 100%;
-        height: 50px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        display: none;
-    }
-
-    .header .container li .button{
+  /*Styling for max desktop screen wdith*/
+  .Welcome .Desktop-container {
+      display: block;
+  }
+  /* Styling to make title text appear over image*/
+  .Welcome .container img {
+      position: relative;
+      width: 100%;
+      /* for IE 6 */
+  }
+  /* Styling to make title text appear over image*/
+  h1 {
+      position: absolute;
+      top: 80px;
+      left: 350px;
+      color: #ffffff;
+      font-size: 100px;
+  }
+  .footer {
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: none;
+  }
+  .header .container li .button {
       font-size: 15px;
-    }
-
-
+  }
 
 }
