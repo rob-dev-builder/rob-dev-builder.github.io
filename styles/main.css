@@ -6,7 +6,6 @@
 */
 
 
-
 .container {
     border-color: blue;
     width: 100%;
@@ -76,12 +75,14 @@
 
 @media (min-width: 550px) {
     /*CSS styling for tablet mode here*/
+
     .footer {
         width: 100%;
         height: 100px;
         position: absolute;
         bottom: 0;
         left: 0;
+        display: none;
     }
     .header .container li .button{
       font-size: 12px;
@@ -93,7 +94,7 @@
     /*Styling for max desktop screen wdith*/
     .Welcome .Desktop-container {
         display: block;
-        
+
     }
     /* Styling to make title text appear over image*/
     .Welcome .container img {
@@ -115,10 +116,13 @@
         position: absolute;
         bottom: 0;
         left: 0;
-
+        display: none;
     }
 
     .header .container li .button{
       font-size: 15px;
     }
+
+
+
 }
