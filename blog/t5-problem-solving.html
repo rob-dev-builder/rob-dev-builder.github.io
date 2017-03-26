@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+
+            <!-- Nav Bar Starts -->
+            <div class="container">
+                <ul>
+                    <li class="two columns"><a class="button button-primary" href="../index.html">rob.io</a></li>
+                    <li class="two columns"><a class="button button-primary" id="blog-button" href="#">Blog</a></li>
+                    <li class="two columns"><a class="button button-primary" id="projects-button" href="#">Contact</a></li>
+                    <li class="two columns"><a class="button button-primary" id="about-button" href="#">About</a></li>
+                    <li class="two columns"><a class="button button-primary" id="cv-button" href="#">CV</a></li>
+                    <li class="two columns"><a class="button button-primary" id="contact-button" href="#">Projects</a></li>
+                </ul>
+            </div>
+            <!-- Nav Bar Ends -->
+
+        </header>
+
+        <section class="Blog-Section">
+            <div class="container">
+                <!-- Blog Nav Bar Starts -->
+                <div class="three columns">
+                    <aside class="Blog-Nav">
+                        <h5>Blog Posts</h5>
+                        <ul>
+                            <li><a href="c1-reflection-blog.html">Reflection</a></li>
+                            <li><a href="c1-time-and-habits-blog.html">Habits</a></li>
+                            <li><a href="c2-emotional-intelligence.html">Emotional IQ</a></li>
+                            <li><a href="t2-html-css-dom-p1.html">Wish List</a></li>
+                            <li><a href="t2-html-css-dom-p2.html">Grid Design</a></li>
+                            <li><a href="t3-design-to-web-blog.html">Responsive Design</a></li>
+                            <li><a href="c3-meditation-process.html">Meditation</a></li>
+                            <li><a href="t4-javascript-basics.html">JavaScript</a></li>
+                            <li><a href="c4-daily-mindfulness.html">Mindfulness</a></li>
+                            <li><a href="c5-self-confidence.html">Self Confidence</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <!-- Blog Nav Bar Ends -->
+
+                <!-- Blog Starts Here -->
+                <div class="nine columns">
+
+                    <h3>FizzBuzz Exercise Problem Solving:</h3>
+
+                    <p>
+                        During Sprint five of EDA training we had to do an exercise where we created a 'FizzBuzz' program using JavaScript. The FizzBuzz program tells the user which numbers (between zero and one hundred) are divisible by three, five and which numbers are divisible
+                        by both three and five.
+                        <br>
+                        <br>
+                        When I first read the problem I was a bit nervous because I did not know where to begin to solve this problem. The first step to solve this problem was to use pseudocode. This is essentially writing out
+                        the steps of the program in simple english. By doing this it helped me to understand how to structure the flow of the program with out getting bogged down in the syntax of Javascript.
+                        <br>
+                        <br>
+                        Once I had a good understanding of how the whole program would work with pseudocode, I started looking at how each function would actually work in JavaScript. Since I am still learning to code I didn't know how to write the syntax to get certain things done. Therefore,
+                        I opened up the Console in DevTools and started playing around with bits of code. The great thing about playing in the console is that I could quickly test ideas and see the result. For example to see to test if a number is divisible
+                        by three I just went into the console and typed: '10 % 4' Answer: 2
+                        <br>
+                        <br>
+                        This confirmed for me how I could go about testing numbers in my program. Every time I got stuck or was not sure about how to code a bit of logic, I just went into the console and tried something out until I found a solution.
+                        <br>
+                        <br>
+                        Sometimes I found myself spending a lot of time in the console and not really getting anywhere. In those situations I tried googling for an answer. For example, In this program I needed to use something called 'conditional operators'. This means that if my program came met certain conditions then it needed to do something. In my program I needed to test if a number was divisible by three and by five. to find out how to do this I went to google and found out about the '&&' operator. This allowed me to combine two conditions and test if they were both true at the same time.
+                        <br>
+                        <br>
+
+                        Often I would get error messages when I tested my program. One error message that I kept getting was that a variable was 'undefined'. This meant that the program was not getting a piece of data that it needed to execute some code. When I got this error message I carefully scanned my code and looked at all my variable names. I would use a troubleshooting technique where you 'console.log' the variable. I often noticed that I would spell variable names incorrectly and this is what caused that problem.
+                        <br>
+                        <br>
+                        During this exercise I never felt so blocked that I needed to use the rubber ducky method or ask my peers for help. Note: The rubber ducky method is a technique where you talk through the steps of your code to a rubber ducky (or
+                        some other object). However, I suspect there will be many times in the future when I will get stuck and will need to use these techniques.
+                        <br>
+                        <br>
+                        Overall I felt really good about solving creating the program. I felt like I had the skills
+                        to solve issues as they came up. At first I was a bit nervous as I did not know how to start. However, as I started writing down code I became more relaxed and focussed. When I completed the program, I looked back at the code and
+                        reflected on how completed the exercise. I felt that I did a good job at tackling the problem in a logical way. I also liked the way I focussed on one small step at a time.
+                        <br>
+                        <br>
+                    </p>
+
+
+
+                    <h4>Describe what these functions do in your own words:</h4>
+
+                    <strong>.map()</strong>
+
+                    <p>This function allows you to call a function on each element on an array. For example:
+                      <br>
+                      <br>
+                      var arrayOfNames = ["Jim","Tim","Jane","Jess"];
+                      <br>
+                      <br>
+                      var greeting = function(name){console.log("Hi " + name)}; arrayOfNames.map(greeting);
+                      <br>
+                      <br>
+                      result: Hi
+                        Jim Hi Tim Hi Jane Hi Jess
+                    </p>
+
+                    <strong>.filter()</strong>
+
+                    <p>
+                        This function allows you to run each element in your array through a filter function. The filter function can be another function that you have created to sort through the items in the array.
+                        <br>
+                        <br>
+                        For example: var ages = [32, 33, 16, 40];
+                        <br>
+                        <br>
+                        function checkAdult(age)
+                        {return age >= 18;}; ages.filter(checkAdult);
+                        <br>
+                        <br>
+                        result: [32, 33, 40]
+                    </p>
+
+
+                    <strong>.reduce()</strong>
+                    <p>
+                        The reduce function allows you to reduce an array down to a single value. The function will allow you to perform a function on each element on the array. For example, in an array of numbers you can reduce it down to a single total like so:
+                        <br>
+                        <br>
+                        var testArray = [1,5]
+                        <br>
+                        <br>
+                        testArray.reduce(function(total,num){return total + num})
+                        <br>
+                        <br>
+                        result: 6
+                    </p>
+
+                </div>
+                <!-- Blog Ends Here -->
+
+            </div>
+        </section>
+
+
+        <!-- Footer Starts -->
+        <Footer class="footer">
+            <div class="container">
+                <a class="four columns" href="#"><img src="../images/glyphicons-social-22-github.png"></a>
+                <a class="four columns" href="#"><img src="../images/glyphicons-social-31-facebook.png"></a>
+                <a class="four columns" href="#"><img src="../images/glyphicons-social-32-twitter.png"></a>
+            </div>
+        </Footer>
+        <!-- Footer Ends -->
+
+    </div>
+</body>
+
+</html>
