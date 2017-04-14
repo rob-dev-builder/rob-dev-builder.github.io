@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+</head>
+
+<body>
+ <div class="wrapper">
+
+   <header class="header">
+
+     <!-- Nav Bar Starts -->
+       <div class="container">
+           <ul>
+               <li class="two columns"><a class="button button-primary" href="../index.html">rob.io</a></li>
+               <li class="two columns"><a class="button button-primary" id="blog-button" href="#">Blog</a></li>
+               <li class="two columns"><a class="button button-primary" id="projects-button" href="#">Contact</a></li>
+               <li class="two columns"><a class="button button-primary" id="about-button" href="#">About</a></li>
+               <li class="two columns"><a class="button button-primary" id="cv-button" href="#">CV</a></li>
+               <li class="two columns"><a class="button button-primary" id="contact-button" href="#">Projects</a></li>
+           </ul>
+       </div>
+       <!-- Nav Bar Ends -->
+
+   </header>
+
+<section class ="Blog-Section">
+  <div class ="container">
+    <!-- Blog Nav Bar Starts -->
+     <div class="three columns">
+        <aside class ="Blog-Nav">
+            <h5>Blog Posts</h5>
+            <ul>
+              <li><a href="c1-reflection-blog.html">Reflection</a></li>
+              <li><a href="c1-time-and-habits-blog.html">Habits</a></li>
+              <li><a href="c2-emotional-intelligence.html">Emotional IQ</a></li>
+              <li><a href="t2-html-css-dom-p1.html">Wish List</a></li>
+              <li><a href="t2-html-css-dom-p2.html">Grid Design</a></li>
+              <li><a href="t3-design-to-web-blog.html">Responsive Design</a></li>
+              <li><a href="c3-meditation-process.html">Meditation</a></li>
+              <li><a href="t4-javascript-basics.html">JavaScript</a></li>
+              <li><a href="c4-daily-mindfulness.html">Mindfulness</a></li>
+              <li><a href="c5-self-confidence.html">Self Confidence</a></li>
+              <li><a href="t5-problem-solving.html">Problem Solving</a></li>
+              <li><a href="t6-js-language.html">JavaScript Syntax</a></li>
+              <li><a href="c7-motivation.html">Productivity</a></li>
+            </ul>
+        </aside>
+      </div>
+    <!-- Blog Nav Bar Ends -->
+
+    <!-- Blog Starts Here -->
+    <div class="nine columns">
+       <!-- <h3>Main Heading</h3>
+        <h4>Question heading</h4>
+         <p>Blog Text</p> -->
+
+         <h3>What 'scope' is, and how it works in JavaScript.</h3>
+
+         <p>When writing code, programmers will use variables to hold data. Scope is the idea of controlling when and how a program can access these variables. If a variable is created with Global Scope then the data in that variable can be accessed (and potentially changed) by any part of the program. If a variable has local scope then it can only be accessed within the function (block of code) that has created it. It is very important to consider scope when coding because using the wrong scope could mean sensitive data can be exposed and or changed unexpectedly.</p>
+
+         <!-- ######################################################################################## -->
+
+         <h4>Local JavaScript Variables</h4>
+
+         <p>Variables declared within a JavaScript function, become LOCAL to the function. Local variables have local scope: They can only be accessed within the function. Each function when invoked creates a new scope.</p>
+
+         <!-- ######################################################################################## -->
+
+         <h4>Global JavaScript Variables</h4>
+
+         <p>A variable declared outside a function, becomes GLOBAL. A global variable has global scope: All scripts and functions on a web page can access it. Variables inside the Global scope can be accessed and altered in any other scope.</p>
+
+         <!-- ######################################################################################## -->
+
+
+         <h4>Automatically Global</h4>
+         <p>If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
+
+         This code example will declare a global variable carName, even if the value is assigned inside a function.</p>
+
+         <p>
+         myFunction();
+           <br><br>
+         // code here can use carName
+         <br><br>
+         function myFunction() { <br>
+             carName = "Volvo";
+         }</p>
+
+         <!-- ######################################################################################## -->
+
+         <h4>The Lifetime of JavaScript Variables</h4>
+
+         <p>The lifetime of a JavaScript variable starts when it is declared. Local variables are deleted when the function is completed. In a web browser, global variables are deleted when you close the browser window (or tab), but remains available to new pages loaded into the same window.</p>
+
+         <!-- ######################################################################################## -->
+
+         <h4>Function Arguments</h4>
+         <p>Function arguments (parameters) work as local variables inside functions.</p>
+
+         <!-- ######################################################################################## -->
+
+         <h4>Block Statements</h4>
+
+         <p>Block statements like if and switch conditions or for and while loops, unlike functions, don't create a new scope. Variables defined inside of a block statement will remain in the scope they were already in. ECMAScript 6 introduced the let and const keywords. These keywords can be used in place of the var keyword. Contrary to the var keyword, the let and const keywords support the declaration of local scope inside block statements.</p>
+
+         <!-- ######################################################################################## -->
+
+         <h4>Lexical Scope</h4>
+
+         <p>Lexical Scope means that in a nested group of functions, the inner functions have access to the variables and other resources of their parent scope. This means that the child functions are lexically bound to the execution context of their parents. Lexical scope is sometimes also referred to as Static Scope.</p>
+
+         <br><br>
+         <p><strong>This information was sourced from the following websites:</strong></p>
+         <a href="https://www.w3schools.com/js/js_events.asp">W3 Scope</a>
+         <br>
+         <a href="https://scotch.io/tutorials/understanding-scope-in-javascript">Scotch IO - Scope</a>
+         <br><br>
+
+    </div>
+    <!-- Blog Ends Here -->
+
+  </div>
+</section>
+
+
+<!-- Footer Starts -->
+   <Footer class="footer">
+       <div class="container">
+           <a class="four columns" href="#"><img src="../images/glyphicons-social-22-github.png"></a>
+           <a class="four columns" href="#"><img src="../images/glyphicons-social-31-facebook.png"></a>
+           <a class="four columns" href="#"><img src="../images/glyphicons-social-32-twitter.png"></a>
+       </div>
+   </Footer>
+<!-- Footer Ends -->
+
+</div>
+</body>
+
+</html>
